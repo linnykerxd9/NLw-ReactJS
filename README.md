@@ -1,46 +1,52 @@
-# Getting Started with Create React App
+## Bem-vindo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Repositório do projeto  Let me ask da NLW onde criaremos uma aplicação SPA 100% funcional com sistema de login com o Google.
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `yarn start`
+### O projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+O projeto consiste na criação de um site onde uma pessoa poderá criar uma sala e compartilhar o código dessa sala e as pessoas que entrarem poderão fazer perguntas e os próprios usuários iriam votar nas melhores perguntas para que o dono da sala responda.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+###### Exemplo
 
-### `yarn test`
+um professor está fazendo uma live de programação e  tem 500 pessoas perguntando no chat, o professor pode acabar se perdendo com tantas pessoas fazendo perguntas ao mesmo tempo e pode acabar não sabendo quem responder, o site vem justamente para solucionar esse problema e ajudar o professor a saber qual pergunta responder.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## USO DO PROJETO
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Primeiro precisa-se criar o firebase pois estamos usando variáveis locais.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Link : https://console.firebase.google.com/u/0/?hl=pt
 
-### `yarn eject`
+entrando nesse link você pode clicar em adicionar projeto e criar seu projeto no firebase
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Primeiro passo
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+após ter criado o seu projeto, vá em "Criação > authentication" clique no provedor de login com o Google, coloque o seu e-mail e ative a autenticação com o Google.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+- Segundo passo
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+após isso vá em Realtime database e crie seu database.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+- Terceiro passo
+
+Após ter criado o database clique em "visão geral do projeto" vá em primeiros passos, coloque um nome e crie o seu firebase.
+
+
+
+- Quarto Passo
+
+dentro da pasta services no arquivo firebase.ts  Subistitua o firebaseConfig  que esta lá pelo seu firebaseConfig que irá aparecer quando criar o seu firebase, com isso o projeto já estará funcionando.
+
+
+
+- Quinto passo
+
+Apenas precisa dar yarn install e aproveitar.
+
