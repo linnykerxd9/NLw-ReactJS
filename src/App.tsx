@@ -3,7 +3,7 @@ import { BrowserRouter , Route, Switch } from 'react-router-dom'
 //importando a page
 import { Home } from "./pages/Home";
 import { NewRoom } from "./pages/NewRoom";
-import {Room} from './pages/Room'
+import { Room } from './pages/Room';
 
 import { AuthContextProvider } from './contexts/AuthContexts';
 
