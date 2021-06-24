@@ -20,9 +20,9 @@ export function Home() {
 
 
     async function handleCreateRoom(){
-        if (!user) {
+        //if (!user) {
             await signInWithGoogle()
-        }
+        //}
         history.push('/rooms/new');
     }
 
@@ -37,6 +37,11 @@ export function Home() {
 
         if (!roomRef.exists()) {
             alert('Room does not exists.');
+            return;
+        }
+
+        if (roomRef.val().endedAt) {
+            alert('Room already  closed.')
             return;
         }
 
