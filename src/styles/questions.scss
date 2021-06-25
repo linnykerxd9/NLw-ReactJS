@@ -18,6 +18,32 @@
         margin-top:8px;
     }
 
+    &.highlighted{
+        background-color: #F4F0FF;
+        border:1px solid #835afd;
+    }
+
+    &.answared{
+        background-color:#DBDCDD;
+    }
+
+    .questionAnswared{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        height:5px;
+
+        p {
+            background-color: #0fde0f;
+            padding: 10px;
+            border-radius: 5555555px;
+            color: white;
+            font-size: 14px;
+            font-family: 'Poppins';
+            font-weight: 500;
+        }
+    }
+
     footer {
         display:flex;
         justify-content:space-between;
@@ -41,6 +67,10 @@
             }
         }
 
+        > div {
+            display: flex;
+            gap: 16px;
+        }
         button {
             border: 0;
             background: transparent;
@@ -68,4 +98,5 @@
             }
         }
     }
+   
 }

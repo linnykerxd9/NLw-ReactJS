@@ -1,4 +1,6 @@
-import {ReactNode} from 'react'
+import { ReactNode } from 'react';
+import cx from 'classnames';
+
 import '../styles/questions.scss'
 
 type QuestionsProps = {
@@ -8,6 +10,8 @@ type QuestionsProps = {
         avatar:string,
     },
     children?: ReactNode,
+    isAnswered?: boolean;
+    isHighlighted?: boolean;
 }
 //desestruturando o props para so pegar as informações que eu quero
 //para não precisar acessar o valor pelo props.content
@@ -15,10 +19,22 @@ type QuestionsProps = {
 export function Questions({
     content,
     author,
+    isAnswered = false,
+    isHighlighted = false,
     children,
     }: QuestionsProps) {
+    console.log(isHighlighted);
     return(
-        <div className="question">
+        <div className={ cx(
+            'question',
+            { answared: isAnswered },
+            { highlighted: isHighlighted && !isAnswered }
+        )}>
+           {isAnswered && (
+                <div className="questionAnswared">
+                    <p>Respondida</p>
+                </div>
+           )}
             <p>{content}</p>
             <footer>
                 <div className="user-info">
