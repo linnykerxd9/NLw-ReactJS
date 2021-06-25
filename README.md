@@ -1,6 +1,6 @@
------------------------------------------ <a href="#link">Link site</a>   <a href="#fotoProj">Screenshots do projeto  </a>    <a href="#apresentacao">Apresentação do projeto</a> --------------------
+----------------------------------------- <a href="#link">Link site</a> |  <a href="#fotoProj">Screenshots do projeto  </a>  |  <a href="#apresentacao">Apresentação do projeto</a> --------------------
 
---------------------------------------------------- <a href="#tecnologias">Tecnologias</a>  <a href="#uso">uso do projeto em localhost</a> -------------------------------------------
+--------------------------------------------------- <a href="#tecnologias">Tecnologias</a> | <a href="#uso">uso do projeto em localhost</a> -------------------------------------------
 
 ​	
 
