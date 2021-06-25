@@ -8,7 +8,7 @@
 
 Repositório do projeto  Let me ask da NLW onde criaremos uma aplicação SPA 100% funcional com sistema de login com o Google.
 
-<img src="https://user-images.githubusercontent.com/72765913/123464441-2d488b00-d5c3-11eb-8dd7-40c5a61bae7b.png" width="400" height="200">
+<img src="https://user-images.githubusercontent.com/72765913/123464441-2d488b00-d5c3-11eb-8dd7-40c5a61bae7b.png" width="600">
 
 
 
@@ -27,7 +27,7 @@ https://letmeask-d87c4.web.app/rooms/-Md0GZ3OPeuuDcxrP4yf
 
 ## <p id="fotoProj">Tela do dono da sala</p>
 
-<img src="https://user-images.githubusercontent.com/72765913/123464724-93351280-d5c3-11eb-8c2c-3f0f940218a6.jpeg" width="400" height="200">
+<img src="https://user-images.githubusercontent.com/72765913/123464724-93351280-d5c3-11eb-8c2c-3f0f940218a6.jpeg" width="600">
 
 
 
@@ -35,7 +35,7 @@ https://letmeask-d87c4.web.app/rooms/-Md0GZ3OPeuuDcxrP4yf
 
 
 
-<img src="https://user-images.githubusercontent.com/72765913/123465203-34bc6400-d5c4-11eb-8f1e-bf0002c64583.jpeg" width="400" height="200">
+<img src="https://user-images.githubusercontent.com/72765913/123465203-34bc6400-d5c4-11eb-8f1e-bf0002c64583.jpeg" width="600">
 
 
 
