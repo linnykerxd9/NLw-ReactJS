@@ -16,7 +16,7 @@ type RoomParams = {
 export function Room() {
     
     const params = useParams<RoomParams>();
-    const {user} = useAuth();
+    const { user, signInWithGoogle } = useAuth();
     const roomId = params.id;
     //usando o hook criado para diminuir o código aqui e ser reutilizado em outras páginas;
     //que terá  função de trazer o titulo da página e as perguntas.
@@ -59,6 +59,9 @@ export function Room() {
        }
     }
     
+    async function logar() {
+        await signInWithGoogle();
+    }
     return (
         <div id="page-room">
             <header>
@@ -89,7 +92,7 @@ export function Room() {
                           </div>
                         ):
                         (
-                            <span>Para enviar uma pergunta, <button>faça seu login.</button></span>
+                            <span>Para enviar uma pergunta, <button onClick={logar}>faça seu login.</button></span>
                         )}
                         <Button type="submit" disabled={!user}>Enviar pergunta</Button>
                     </div>
