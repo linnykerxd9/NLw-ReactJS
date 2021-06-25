@@ -14,13 +14,13 @@ Repositório do projeto  Let me ask da NLW onde criaremos uma aplicação SPA 10
  <h3 id="link">Links</h3>
 Link para o site hospedado pelo firebase:
 
-https://letmeask-d87c4.web.app
+<a src="https://letmeask-d87c4.web.app" target="_blank">https://letmeask-d87c4.web.app</a>
 
 
 
 Link para a minha sala onde você pode escrever comentários ou feedbacks para mim, estarei sempre olhando essa página:
 
-https://letmeask-d87c4.web.app/rooms/-Md0GZ3OPeuuDcxrP4yf 
+<a src="https://letmeask-d87c4.web.app" target="_blank">https://letmeask-d87c4.web.app/rooms/-Md0GZ3OPeuuDcxrP4yf </a>
 
 
 
