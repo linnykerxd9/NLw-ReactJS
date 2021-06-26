@@ -20,7 +20,7 @@ https://letmeask-d87c4.web.app
 
 Link para a minha sala onde você pode escrever comentários ou feedbacks para mim, estarei sempre olhando essa página:
 
-https://letmeask-d87c4.web.app/rooms/-Md0GZ3OPeuuDcxrP4yf 
+https://letmeask-d87c4.web.app/rooms/-Md0GZ3OPeuuDcxrP4yf
 
 
 
