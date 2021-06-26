@@ -141,3 +141,19 @@
         }
     }
 }
+@media screen and (max-width: 768px){
+    .buttonDarkMode-content {
+        display:none!important;
+    }
+  header {
+    .content {
+        display: flex!important;
+        flex-direction:column!important;
+        gap:10px;
+
+        > div{
+            flex-direction: column;
+        }
+    }
+  }
+}
