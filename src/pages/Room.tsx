@@ -1,14 +1,24 @@
 import { FormEvent, useState } from 'react';
 import { useParams } from 'react-router-dom';
+
 import logoImg from '../assets/images/logo.svg'
+import logoDark from '../assets/images/logoDark.svg'
+
+import FormGroup from '@material-ui/core/FormGroup';
+import FormControlLabel from '@material-ui/core/FormControlLabel';
+import Switch from '@material-ui/core/Switch';
+
 import { Button } from '../components/Button'
 import { Questions } from '../components/Questions';
 import { RoomCode } from '../components/RoomCode'
+
 import { useAuth } from '../hooks/useAuth';
 import { useRoom } from '../hooks/useRoom';
+
 import { database } from '../services/firebase';
 
 import '../styles/room.scss'
+import { useTheme } from '../hooks/useTheme';
 
 type RoomParams = {
     id: string;
@@ -21,6 +31,7 @@ export function Room() {
     //usando o hook criado para diminuir o código aqui e ser reutilizado em outras páginas;
     //que terá  função de trazer o titulo da página e as perguntas.
     const { title, questions } = useRoom(roomId);
+    const { theme, toggleTheme } = useTheme();
     
     const [newQuestion, setNewQuestion] = useState('');
 
@@ -63,23 +74,43 @@ export function Room() {
         await signInWithGoogle();
     }
     return (
-        <div id="page-room">
+        <div id="page-room" className={(theme === 'dark' ? 'themeDark' : '')}>
             <header>
                 <div className="content">
-                    <img src={logoImg} alt="Logo Letmeask" />
+                    { theme === 'light' ?
+                        (<img src={logoImg} alt="Letmeask" />) :
+                        (<img src={logoDark} alt="Letmeask" />)
+                    }
                     <RoomCode code={roomId} />
                 </div>
             </header>
 
             <main >
+            <div className="roomContent-header">
                 <div className="room-title">
                     <h1>Sala {title}</h1>
-                    {questions.length > 0 &&  <span>{questions.length} pergunta(s)</span>}
+                        {questions.length > 0 && <span>{questions.length} pergunta(s)</span>}
+                </div>
+                <div className="buttonDarkMode-content">
+                    <FormGroup>
+                        <FormControlLabel
+                        control={
+                            <Switch
+                                checked={theme === 'dark'}
+                                onChange={toggleTheme}
+                                name="noturno"
+                                color="primary"
+                            />
+                            }
+                            label="Modo noturno"
+                        />
+                    </FormGroup>
+                </div>
                 </div>
 
                 <form onSubmit={handleSendingQuestion}>
                     <textarea
-                        placeholder="Oque você quer perguntas:"
+                        placeholder="Oque você quer pergunta:"
                         onChange={event => setNewQuestion(event.target.value)}
                         value={newQuestion}
                     />

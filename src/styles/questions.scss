@@ -26,6 +26,21 @@
     &.answared{
         background-color:#DBDCDD;
     }
+    &.themeDark{
+        background-color: #b3b3b3;
+        
+        span {
+            color: #2d2d2f!important;
+        }
+        
+        &.highlighted{
+            background-color: #ccd4dc;
+            border: 3px solid #835afd;
+        }
+        &.answared{
+            background-color:#636567;
+        }
+    }
 
     .questionAnswared{
         display: flex;
