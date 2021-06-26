@@ -27,13 +27,13 @@ https://letmeask-d87c4.web.app/rooms/-Md0GZ3OPeuuDcxrP4yf
 ## <p id="fotoProj">Tela do dono da sala</p>
 
 <img src="https://user-images.githubusercontent.com/72765913/123525481-64906800-d6a7-11eb-9df5-174853e295d1.png" width="500">   <img src="https://user-images.githubusercontent.com/72765913/123525682-e46b0200-d6a8-11eb-827d-4c89beb281c4.jpeg" width="200" >
-<img src="https://user-images.githubusercontent.com/72765913/123525488-73771a80-d6a7-11eb-9f4a-bc1bcc65ca10.png" width="500">   <img src="https://user-images.githubusercontent.com/72765913/123525708-1ed49f00-d6a9-11eb-864a-b489a594ef14.jpeg" width="200" >
+<img src="https://user-images.githubusercontent.com/72765913/123525488-73771a80-d6a7-11eb-9f4a-bc1bcc65ca10.png" width="500">
 
 
 ## Tela do usuário:
 
 
-<img src="https://user-images.githubusercontent.com/72765913/123525501-84c02700-d6a7-11eb-8674-ce6aa8bdade8.png" width="500">
+<img src="https://user-images.githubusercontent.com/72765913/123525501-84c02700-d6a7-11eb-8674-ce6aa8bdade8.png" width="500">   <img src="https://user-images.githubusercontent.com/72765913/123525708-1ed49f00-d6a9-11eb-864a-b489a594ef14.jpeg" width="200" >
 <img src="https://user-images.githubusercontent.com/72765913/123525508-90abe900-d6a7-11eb-9e26-5e105e301541.png" width="500">
 
 
