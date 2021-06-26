@@ -7,8 +7,8 @@
 
 Repositório do projeto  Let me ask da NLW onde criaremos uma aplicação SPA 100% funcional com sistema de login com o Google.
 
-<img src="https://user-images.githubusercontent.com/72765913/123464441-2d488b00-d5c3-11eb-8dd7-40c5a61bae7b.png" width="600">
-
+<img src="https://user-images.githubusercontent.com/72765913/123525431-f8156900-d6a6-11eb-9b31-04bb286faf67.png" width="500">
+<img src="https://user-images.githubusercontent.com/72765913/123525450-1713fb00-d6a7-11eb-9d8a-3f9cda157203.png" width="500">
 
 
  <h3 id="link">Links</h3>
