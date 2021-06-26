@@ -7,8 +7,8 @@
 
 Repositório do projeto  Let me ask da NLW onde criaremos uma aplicação SPA 100% funcional com sistema de login com o Google.
 
-<img src="https://user-images.githubusercontent.com/72765913/123525431-f8156900-d6a6-11eb-9b31-04bb286faf67.png" width="400">
-<img src="https://user-images.githubusercontent.com/72765913/123525450-1713fb00-d6a7-11eb-9d8a-3f9cda157203.png" width="400">
+<img src="https://user-images.githubusercontent.com/72765913/123525431-f8156900-d6a6-11eb-9b31-04bb286faf67.png" width="500">
+<img src="https://user-images.githubusercontent.com/72765913/123525450-1713fb00-d6a7-11eb-9d8a-3f9cda157203.png" width="500">
 
 
  <h3 id="link">Links</h3>
@@ -26,15 +26,15 @@ https://letmeask-d87c4.web.app/rooms/-Md0GZ3OPeuuDcxrP4yf
 
 ## <p id="fotoProj">Tela do dono da sala</p>
 
-<img src="https://user-images.githubusercontent.com/72765913/123464724-93351280-d5c3-11eb-8c2c-3f0f940218a6.jpeg" width="600">
-
+<img src="https://user-images.githubusercontent.com/72765913/123525481-64906800-d6a7-11eb-9df5-174853e295d1.png" width="500">
+<img src="https://user-images.githubusercontent.com/72765913/123525488-73771a80-d6a7-11eb-9f4a-bc1bcc65ca10.png" width="500">
 
 
 ## Tela do usuário:
 
 
-
-<img src="https://user-images.githubusercontent.com/72765913/123465203-34bc6400-d5c4-11eb-8f1e-bf0002c64583.jpeg" width="600">
+<img src="https://user-images.githubusercontent.com/72765913/123525501-84c02700-d6a7-11eb-8674-ce6aa8bdade8.png" width="500">
+<img src="https://user-images.githubusercontent.com/72765913/123525508-90abe900-d6a7-11eb-9e26-5e105e301541.png" width="500">
 
 
 
